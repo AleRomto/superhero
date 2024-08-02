@@ -1,0 +1,142 @@
+
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.title {
+    font-family: 'Honk', sans-serif;
+}
+
+/* Secciones de colores */
+.wide {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 80px 60px 60px 60px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center; 
+    text-align: center;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+#red {
+    background-color: #f45030;
+}
+
+.callingSH {
+    max-width: 70%;  
+    height: auto;
+}
+
+#yellow {
+    background-color: #e8d41b;
+}
+
+#blue {
+    background-color: #202ef7;
+}
+
+/* form para ingresar los números*/
+#form {
+    background-color: #f5f5f5; 
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    width: 100%; 
+    margin: 40px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form div {
+    margin-bottom: 20px; 
+    width: 100%;
+}
+
+#form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px; 
+}
+
+.numberHero {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.numberHero:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+    text-align: center; 
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* la famosa Card */
+.card-body p,
+.list-group-item {
+    text-align: justify;
+}
+
+.card-body p:last-of-type {
+    text-align: justify;
+}
+
+/*centrar el gráfico*/
+
+#chartContainer {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px 0; 
+}
+
+/* Subir a la sección Amarilla */
+.scroll-to-yellow {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.scroll-arrow {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}
